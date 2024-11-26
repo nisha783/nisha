@@ -1,6 +1,7 @@
 /* Top Bar */
 .top-bar {
     background-color: rgb(88, 42, 15);
+    position: sticky;
     padding: 4px;
     font-size: 15px;
 }
@@ -44,10 +45,13 @@ a:hover {
 
 /* Hero Section */
 #hero {
-    background-image: linear-gradient(rgba(54, 52, 52, 0.5), rgba(95, 84, 84, 0.5)), url(../2.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image:  url(../IMG_1156.JPG);
+    background-size: cover; 
+    height: 500px; 
+    background-repeat: no-repeat; 
+    width: 1500px;
 }
+
 
 /* Button styling */
 .form-group button {
@@ -84,13 +88,10 @@ body {
     overflow-x: hidden;
 }
 
-/* Ensure that the carousel doesn't overflow the container */
 .carousel-inner {
     width: 100%;
-    overflow: hidden; /* Prevent horizontal scrolling */
+    overflow: hidden; 
 }
-
-/* Make sure the images take up the full width of their column */
 .carousel-item img {
     width: 100%;
     height: auto;
@@ -122,23 +123,32 @@ body {
     }
 
     .custom-font {
-        font-size: 14px; /* Adjust text size for mobile */
+        font-size: 14px; 
     }
-
-    /* Adjust cards layout for mobile */
     .card-body {
         padding: 15px;
     }
 
-    /* Adjust button size on small screens */
     .form-group button {
         font-size: 14px;
     }
 
-    /* Responsive adjustments to icon sizes */
     .social-icons {
-        font-size: 1.2rem; /* Slightly smaller icons on mobile */
+        font-size: 1.2rem; 
     }
+}
+.pic{
+    background-image: url(../IMG_1222.JPG);
+    color:white;
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    height: 400px; 
+}
+.apic {
+    background-image:  url(../IMG_1273.JPG);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 400px; 
 }
 
 /* Larger devices */
