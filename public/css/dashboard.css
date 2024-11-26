@@ -1,0 +1,165 @@
+/* Top Bar */
+.top-bar {
+    background-color: rgb(88, 42, 15);
+    padding: 4px;
+    font-size: 15px;
+}
+
+.left-items, a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.right-items {
+    display: flex;
+}
+
+/* For icons in the right items */
+.social-icons {
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.social-icons:hover {
+    opacity: 1;
+}
+
+/* Text color in dark sections */
+.text-dark span {
+    color: blue;
+}
+
+/* Container with Fluid Layout */
+.container-fluid {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Hero Section */
+#hero {
+    background-image: linear-gradient(rgba(54, 52, 52, 0.5), rgba(95, 84, 84, 0.5)), url(../2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Button styling */
+.form-group button {
+    height: 100%; 
+    border-radius: 0 5px 5px 0; 
+    padding: 0 15px; 
+}
+
+/* Custom font */
+.custom-font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic; 
+    color: #333; 
+}
+
+/* Font Families */
+.a {
+    font-family: "Audiowide", sans-serif;
+}
+
+.c-text {
+    font-family: "Trirong", serif;
+}
+
+/* Card Styles */
+.card-body {
+    padding: 20px;
+}
+
+.text-center h3 {
+    margin-top: 20px;
+}
+body {
+    overflow-x: hidden;
+}
+
+/* Ensure that the carousel doesn't overflow the container */
+.carousel-inner {
+    width: 100%;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Make sure the images take up the full width of their column */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .carousel-inner {
+        flex-direction: column;
+    }
+
+    .carousel-item {
+        flex: 1 0 100%;
+    }
+}
+/* Mobile Responsiveness */
+
+@media (max-width: 768px) {
+    .top-bar {
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+    .container-fluid {
+        padding: 10px; /* More padding for smaller screens */
+    }
+
+    /* Hero text styling */
+    #hero h1 {
+        font-size: 24px;
+    }
+
+    .custom-font {
+        font-size: 14px; /* Adjust text size for mobile */
+    }
+
+    /* Adjust cards layout for mobile */
+    .card-body {
+        padding: 15px;
+    }
+
+    /* Adjust button size on small screens */
+    .form-group button {
+        font-size: 14px;
+    }
+
+    /* Responsive adjustments to icon sizes */
+    .social-icons {
+        font-size: 1.2rem; /* Slightly smaller icons on mobile */
+    }
+}
+
+/* Larger devices */
+@media (min-width: 768px) {
+    .top-bar {
+        font-size: 16px;
+    }
+    #hero h1 {
+        font-size: 36px;
+    }
+    .custom-font {
+        font-size: 18px;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+    .container-fluid {
+        padding: 20px;
+    }
+    #hero h1 {
+        font-size: 48px;
+    }
+}
