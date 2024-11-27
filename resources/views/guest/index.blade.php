@@ -38,22 +38,34 @@
             </div>
         </div>
     </div>
-    </div>
     <div id="hero">
         <div class="container-fluid  text-center">
-            <nav class="d-flex" style="margin-left:100px;">
-                <h1><a href="#" class="a text-white text-decoration-none   fw-bold " style="margin-left: 180px;">METT</a></h1>
-                <ul class="d-flex justify-content-between text-white" style="margin-right: 150px;">
-                    <li class="d-flex" style="list-style: none;margin-left:150px;">
-                        <a class="nav-link ms-3 fw-bold active p-3" href="#">Home</a>
-                        <a class="nav-link ms-3 fw-bold p-3" href="#">About</a>
-                        <a class="nav-link ms-3 fw-bold p-3" href="#">Services</a>
-                        <a class="nav-link ms-3 fw-bold p-3" href="#">Contact Us</a>
-                    </li>
-                </ul>
+            <nav class="navbar navbar-expand-sm navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand a fs-3" href="#">MATT</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar" >
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link text-white ms-5 fw-bold" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-3 text-white fw-bold" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-3 text-white fw-bold" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-white ms-3 fw-bold" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </div>
-        <div class="d-flex " style="margin-top: 25px;">
+        <div class="d-flex " style="margin-top:80px;">
             <h4 class="fw-bold a text-white " style="font-size:50px; margin-left:220px; margin-top:60px;">Best Shop</h4>
             <a href="" class="text-warning a fw-bold ms-3" style="margin-top: 45px; font-size:60px;">in Town</a>
         </div>
@@ -65,7 +77,6 @@
             <button type="button" class=" btn btn-warning text-white mt-3 mb-5" style="margin-left:220px;">Bock An APPOUMENT</button>
         </div>
     </div>
-
 
     <div class="container">
         <div class="row" style="margin-top: 80px;">

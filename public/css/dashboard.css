@@ -6,7 +6,8 @@
     font-size: 15px;
 }
 
-.left-items, a {
+.left-items,
+a {
     text-decoration: none;
     color: whitesmoke;
 }
@@ -18,6 +19,7 @@ a:hover {
 .right-items {
     display: flex;
 }
+
 
 /* For icons in the right items */
 .social-icons {
@@ -45,26 +47,25 @@ a:hover {
 
 /* Hero Section */
 #hero {
-    background-image:  url(../IMG_1156.JPG);
-    background-size: cover; 
-    height: 500px; 
-    background-repeat: no-repeat; 
+    background-image: url(../IMG_1156.JPG);
+    background-size: cover;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-position: 100%;
     width: 1500px;
 }
-
-
 /* Button styling */
 .form-group button {
-    height: 100%; 
-    border-radius: 0 5px 5px 0; 
-    padding: 0 15px; 
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+    padding: 0 15px;
 }
 
 /* Custom font */
 .custom-font {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic; 
-    color: #333; 
+    font-style: italic;
+    color: #333;
 }
 
 /* Font Families */
@@ -84,92 +85,48 @@ a:hover {
 .text-center h3 {
     margin-top: 20px;
 }
+
 body {
     overflow-x: hidden;
 }
 
 .carousel-inner {
     width: 100%;
-    overflow: hidden; 
+    overflow: hidden;
 }
+
 .carousel-item img {
     width: 100%;
     height: auto;
 }
-
-/* Responsive layout */
-@media (max-width: 768px) {
-    .carousel-inner {
-        flex-direction: column;
-    }
-
-    .carousel-item {
-        flex: 1 0 100%;
-    }
-}
-/* Mobile Responsiveness */
-
-@media (max-width: 768px) {
-    .top-bar {
-        font-size: 14px; /* Smaller font size for mobile */
-    }
-    .container-fluid {
-        padding: 10px; /* More padding for smaller screens */
-    }
-
-    /* Hero text styling */
-    #hero h1 {
-        font-size: 24px;
-    }
-
-    .custom-font {
-        font-size: 14px; 
-    }
-    .card-body {
-        padding: 15px;
-    }
-
-    .form-group button {
-        font-size: 14px;
-    }
-
-    .social-icons {
-        font-size: 1.2rem; 
-    }
-}
-.pic{
+.pic {
     background-image: url(../IMG_1222.JPG);
-    color:white;
-    background-size:cover; 
-    background-repeat: no-repeat; 
-    height: 400px; 
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position:30%;
 }
+
 .apic {
-    background-image:  url(../IMG_1273.JPG);
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    height: 400px; 
+    background-image: url(../IMG_1273.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
 }
 
-/* Larger devices */
-@media (min-width: 768px) {
-    .top-bar {
-        font-size: 16px;
+
+@media (max-width: 475px) {
+    .container {
+        margin-top: 20px; /* Adjust margin for smaller screens */
     }
-    #hero h1 {
-        font-size: 36px;
+    .row .col-12 img {
+        height: auto; /* Adjust the height automatically */
+        width: 100%; /* Make the image take full width */
     }
-    .custom-font {
-        font-size: 18px;
+    .row .col-12 h3,
+    .row .col-12 p {
+        font-size: 1rem; /* Adjust font sizes for smaller screens */
     }
 }
 
-/* Large screens */
-@media (min-width: 1200px) {
-    .container-fluid {
-        padding: 20px;
-    }
-    #hero h1 {
-        font-size: 48px;
-    }
-}
