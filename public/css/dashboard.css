@@ -1,9 +1,80 @@
+
+    /* For small screens (mobile) */
+    @media (max-width: 576px) {
+        .container {
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items */
+            text-align: center;
+        }
+      
+        .right-items {
+            margin-top: 10px; /* Add space between sections */
+        }
+       
+      
+        .ms-4 {
+            margin-left: 0 !important; /* Remove margin on small screens */
+        }
+    }
+
+    /* For medium screens (tablets) */
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column; /* Stack items vertically on tablets */
+            align-items: center;
+            text-align: center;
+        }
+       
+    }
+
+    /* For large screens (desktops) */
+    @media (min-width: 769px) {
+        .container {
+            flex-direction: row; /* Align items in a row on large screens */
+            justify-content: space-between; /* Maintain spacing between items */
+            text-align: left;
+        }
+        .left-items {
+            margin-bottom: 0; /* No extra margin for large screens */
+        }
+        .right-items {
+            margin-top: 0;
+        }
+       
+    }
+
 /* Top Bar */
 .top-bar {
     background-color: rgb(88, 42, 15);
     position: sticky;
-    padding: 4px;
+    padding: 2px;
     font-size: 15px;
+    top: 0;
+    z-index: 9999;  /* Ensure the sticky bar stays on top */
+}
+
+/* For small screens (mobile) */
+@media (max-width: 576px) {
+    .top-bar {
+        font-size: 12px;  /* Reduce font size for mobile */
+        padding: 8px;  /* Adjust padding for better spacing */
+    }
+}
+
+/* For medium screens (tablets) */
+@media (max-width: 768px) {
+    .top-bar {
+        font-size: 14px;  /* Adjust font size for tablet screens */
+        padding: 10px;  /* Adjust padding */
+    }
+}
+
+/* For large screens (desktops) */
+@media (min-width: 769px) {
+    .top-bar {
+        font-size: 15px;  /* Keep the original font size for larger screens */
+        padding: 12px;  /* Keep the padding larger for desktops */
+    }
 }
 
 .left-items,
@@ -51,9 +122,34 @@ a:hover {
     background-size: cover;
     height: 560px;
     background-repeat: no-repeat;
-    background-position: 100%;
-    width: 1500px;
+    background-position: center center;
+    width: 100%;
 }
+
+/* For small screens (mobile) */
+@media (max-width: 576px) {
+    #hero {
+        background-position: center center;  /* Ensure the background is centered */
+        height: 400px;  /* Adjust the height for smaller screens */
+    }
+}
+
+/* For medium screens (tablets) */
+@media (max-width: 768px) {
+    #hero {
+        background-position: center center;  /* Center image for better visual */
+        height: 450px;  /* Adjust height for tablet devices */
+    }
+}
+
+/* For large screens (desktops) */
+@media (min-width: 769px) {
+    #hero {
+        background-position: center center;
+        height: 560px;  /* Original height for large screens */
+    }
+}
+
 /* Button styling */
 .form-group button {
     height: 100%;
@@ -122,11 +218,34 @@ body {
     }
     .row .col-12 img {
         height: auto; /* Adjust the height automatically */
-        width: 100%; /* Make the image take full width */
     }
-    .row .col-12 h3,
-    .row .col-12 p {
-        font-size: 1rem; /* Adjust font sizes for smaller screens */
+
+}
+@media (max-width: 768px) {
+     img.d {
+      width: 200%;
     }
+
+    .card-body {
+      padding: 15px;
+    }
+  }
+/* Fix overlapping of text and image */
+.col-md-6 img {
+    display: block;
+    margin: 0 auto;
 }
 
+/* Responsive design for mobile */
+@media (max-width: 475px) {
+    .container {
+        margin-top: 20px;
+    }
+    .row .col-12 img {
+        width: 100%; /* Make image full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .row .col-12 {
+        text-align: center; /* Center align text */
+    }
+}
