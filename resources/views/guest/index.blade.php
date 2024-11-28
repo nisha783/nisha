@@ -54,7 +54,7 @@
                                 <a class="nav-link text-white fw-bold ms-3" href="#">Services</a>
                             </li>
                             <li class="nav-item ms-5">
-                                <a class="nav-link text-white fw-bold ms-3" href="#">About</a>
+                                <a class="nav-link text-white fw-bold ms-3" href="{{route('about.index')}}">About Us</a>
                             </li>
                             <li class="nav-item ms-5">
                                 <a class="nav-link text-white fw-bold ms-3" href="#">Contact</a>
