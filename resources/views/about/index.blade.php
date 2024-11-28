@@ -72,8 +72,8 @@
             <!-- Text Column -->
             <p class="text-warning fs-2 a text-center" style="margin-top: 50px;">- ABOUT US</p>
             <div class="col-md-6 col-12 order-2">
-                <h3 class="fw-bold fs-1 a ms-4 text-center">We're here to change your daily <span class="fw-bold text-warning">lifestyle</span></h3>
-                <p class="mt-4 c text-dark ms-4">
+                <h3 class="fw-bold fs-1 a">We're here to change your daily <span class="fw-bold text-warning">lifestyle</span></h3>
+                <p class="mt-4 c text-dark">
                 Welcome to [Salon Name], where beauty meets style, and every client is our top priority. Nestled in the heart of [City/Location], our salon is dedicated to providing
                  exceptional hair care services in a warm and welcoming environment.
                 </p>
