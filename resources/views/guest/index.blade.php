@@ -48,7 +48,7 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item ms-5">
-                                <a class="nav-link text-white fw-bold" href="#">Home</a>
+                                <a class="nav-link text-white fw-bold" href="/">Home</a>
                             </li>
                             <li class="nav-item ms-5">
                                 <a class="nav-link text-white fw-bold ms-3" href="#">Services</a>

@@ -125,7 +125,10 @@ a:hover {
     background-position: center center;
     width: 100%;
 }
-
+#her{
+    background-image: url(../IMG_1156.JPG);
+height: 100px;
+}
 /* For small screens (mobile) */
 @media (max-width: 576px) {
     #hero {
