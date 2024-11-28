@@ -37,7 +37,7 @@
             </div>
         </div>
     </div>
-    <div id="her" class="text-center bg-warning">
+    <div id="" class="text-center bg-warning">
         <div class="container">
             <!-- Navbar -->
             <nav class="navbar navbar-expand-sm navbar-dark">
