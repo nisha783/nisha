@@ -67,18 +67,21 @@
     </div>
 
     <div class="pic">
-        <div class="container  mb-5">
-            <div class="row">
-                <div class="col-6 mx-auto">
-                    <div class="text-center">
-                        <h1 class="text-warning ms-3 a" style="margin-top:80px;">ABOUT US</h1>
-                        <p class="fs-3 text-white mt-3">We Are Always Ready TO Take A Perfect Shot Always Ready TO Take.</p>
-                        <button type="button" class="btn btn-warning rounded-pill mt-5 text-white" style="margin-bottom:80px;">Started</button>
-                    </div>
-                </div>
+    <div class="container mb-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 col-sm-10 text-center">
+                <h1 class="text-warning" style="margin-top: 80px;">ABOUT US</h1>
+                <p class="fs-5 text-white mt-3">
+                    We Are Always Ready To Take A Perfect Shot, Always Ready To Take.
+                </p>
+                <button type="button" class="btn btn-warning rounded-pill mt-5 text-white" style="margin-bottom: 80px;">
+                    Get Started
+                </button>
             </div>
         </div>
     </div>
+</div>
+
     <div style="background-color: #f8f9fa;">
         <div class="container">
             <div class="row" style="margin-top:0px;margin-bottom:50px;">
@@ -109,76 +112,76 @@
                 </div>
             </div>
         </div>
-        <!--progress-->
         <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <h2>Our Skills</h2>
-                    <p> Welcome to [Salon Name], where beauty meets style, and every client is our top priority.
-                        Nestled in the heart of [City/Location],.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h6 class="head">VideoGraphy</h6>
-                        <h6 class="head">
-                            7%
-                        </h6>
-                    </div>
-                    <div class="progress rounded-pill mb-4">
-                        <div class="progress-bar bg-warning" style="width:100px; height: 30px;"></div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h6 class="head">Video Editings</h6>
-                        <h6 class="head">
-                            34%
-                        </h6>
-                    </div>
-                    <div class="progress rounded-pill mb-4">
-                        <div class="progress-bar bg-warning" style="width: 70px;"></div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h6 class="head">Banding</h6>
-                        <h6 class="head">
-                            78%
-                        </h6>
-                    </div>
-                    <div class="progress rounded-pill mb-4">
-                        <div class="progress-bar bg-warning" style="width:300px;"></div>
-                    </div>
+    <div class="row">
+        <!-- Left Column: Skills -->
+        <div class="col-lg-6 col-md-12">
+            <h2>Our Skills</h2>
+            <p>Welcome to [Salon Name], where beauty meets style, and every client is our top priority. 
+               Nestled in the heart of [City/Location].</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="head">VideoGraphy</h6>
+                <h6 class="head">7%</h6>
+            </div>
+            <div class="progress rounded-pill mb-4">
+                <div class="progress-bar bg-warning" style="width:7%; height: 30px;"></div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="head">Video Editing</h6>
+                <h6 class="head">34%</h6>
+            </div>
+            <div class="progress rounded-pill mb-4">
+                <div class="progress-bar bg-warning" style="width:34%; height: 30px;"></div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <h6 class="head">Branding</h6>
+                <h6 class="head">78%</h6>
+            </div>
+            <div class="progress rounded-pill mb-4">
+                <div class="progress-bar bg-warning" style="width:78%; height: 30px;"></div>
+            </div>
+        </div>
+
+        <!-- Right Column: Statistics -->
+        <div class="col-lg-6 col-md-12">
+            <div class="row mt-5 ms-lg-5 ms-md-0">
+                <div class="col-6 mt-4 text-center">
+                    <h2>20<span>+</span></h2>
+                    <span>Years of Experience</span>
                 </div>
-                <div class="col-6">
-                    <div class="row mt-5 ms-5">
-                        <div class="col-6 mt-4">
-                            <h2>20<span>+</span></h2>
-                            <span>Year OF Experience</span>
-                        </div>
-                        <div class="col-6 mt-4">
-                            <h2>1000<span>+</span></h2>
-                            <span>Year OF Experience</span>
-                        </div>
-                    </div>
-                    <div class="row mt-3 ms-5 mt-5">
-                        <div class="col-6 mt-1">
-                            <h2>2000<span>+</span></h2>
-                            <span>Year OF Experience</span>
-                        </div>
-                        <div class="col-6 mt-1">
-                            <h2>200<span>+</span></h2>
-                            <span>Year OF Experience</span>
-                        </div>
-                    </div>
+                <div class="col-6 mt-4 text-center">
+                    <h2>1000<span>+</span></h2>
+                    <span>Happy Clients</span>
+                </div>
+            </div>
+            <div class="row mt-3 ms-lg-5 ms-md-0">
+                <div class="col-6 mt-4 text-center">
+                    <h2>2000<span>+</span></h2>
+                    <span>Projects Completed</span>
+                </div>
+                <div class="col-6 mt-4 text-center">
+                    <h2>200<span>+</span></h2>
+                    <span>Awards Won</span>
                 </div>
             </div>
         </div>
-        <div class="container mt-5 mb-5 pic">
-            <div class="row">
-                <div class="col-6 mx-auto">
-                    <div class="text-center">
-                        <h2 class="text-warning ms-3" style="margin-top:80px;">Hire Us Now</h2>
-                        <p class="fs-3 text-white mt-3">We Are Always Ready TO Take A Perfect Shot Always Ready TO Take.</p>
-                        <button type="button" class="btn btn-warning rounded-pill mt-5 text-white" style="margin-bottom:80px;">Started</button>
-                    </div>
-                </div>
-            </div>
+    </div>
+</div>
+
+<div class="container mt-5 mb-5 pic">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-10 text-center">
+            <h2 class="text-warning" style="margin-top: 80px;">Hire Us Now</h2>
+            <p class="fs-5 text-white mt-3">
+                We Are Always Ready To Take A Perfect Shot, Always Ready To Take.
+            </p>
+            <button type="button" class="btn btn-warning rounded-pill mt-5 text-white" style="margin-bottom: 80px;">
+                Get Started
+            </button>
         </div>
+    </div>
+</div>
+
         <!-- Subscription Section -->
         <div style="background-color: rgb(77, 42, 15);">
             <div class="container py-5">

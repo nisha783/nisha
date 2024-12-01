@@ -321,7 +321,7 @@
                                 <span>Senior Borbor</span>
                             </div>
                             <div class="col-4">
-                                <img src="IMG_1222.jPG" alt="Artist 3" class="d-block w-100 rounded" height="350">
+                                <img src="IMG_1222.JPG" alt="Artist 3" class="d-block w-100 rounded" height="350">
                                 <h4 class="fw-bold fs-5 mt-2 a">Nemopir Junior</h4>
                                 <span>Senior Borbor</span>
                             </div>
@@ -335,7 +335,7 @@
                                 <span>Senior Borbor</span>
                             </div>
                             <div class="col-4">
-                                <img src="IMG_1255.jPG" alt="Artist 4" class=" rounded" height="350">
+                                <img src="IMG_1255.JPG" alt="Artist 4" class=" rounded" height="350">
                                 <h4 class="fw-bold fs-5 mt-2 a">Nemopir Junior</h4>
                                 <span>Senior Borbor</span>
                             </div>
