@@ -27,14 +27,23 @@ class ContactController extends Controller
             'subject' => 'required|string',
             'phone' => 'required|string',
         ]);
+
         $data = $request->only('full_name', 'email_address', 'subject', 'phone', 'message');
 
         // Send email
-        Mail::send('contact.index', $data, function ($message) use ($data) {
-            $message->to('hm6980097@gmail.com') // Replace with the recipient email address
-                ->subject('New Contact Form Submission: ' . $data['subject']);
+        $messageBody = "You have received a new contact form submission:\n\n";
+        $messageBody .= "Name: {$data['full_name']}\n";
+        $messageBody .= "Email: {$data['email_address']}\n";
+        $messageBody .= "Phone: {$data['phone']}\n";
+        $messageBody .= "Subject: {$data['subject']}\n";
+        $messageBody .= "Message:\n{$data['message']}\n";
+
+        // Send email
+        Mail::raw($messageBody, function ($message) use ($data) {
+            $message->to('shakeel2717@gmail.com')
+                    ->subject($data['subject'] ?? 'Contact Form Submission');
         });
-        // Handle the submission (e.g., save to database or send email)
+        
         return redirect()->route('contact.index')->with('success', 'Your message has been sent!');
     }
     /**

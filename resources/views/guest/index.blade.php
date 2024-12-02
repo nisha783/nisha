@@ -423,7 +423,7 @@
                     </div>
 
                     <div class="text-center text-md-start py-4">
-                        <h4 class="a fw-bold ms-5">Our CEO, John Doe, has redefined the art of grooming redefined the art </h4>
+                        <h4 class="a fw-bold ms-5">Our CEO, M. Nauman Rasool, has redefined the art of grooming redefined the art </h4>
                         <p class="text-muted c mt-4 ms-5" style="max-width: 600px; margin: 0 auto;">
                             At <span class="text-warning fw-bold text-warning">Best Shop</span>, we are driven by a passion for excellence. Our CEO, John Doe, has redefined the art of grooming with
                             a vision to blend style, innovation, and quality. With years of experience in the beauty industry, he believes in creating a space where every customer feels confident and empowered. His commitment to delivering exceptional service is the foundation of everything we do.
