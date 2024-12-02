@@ -222,6 +222,7 @@ body {
 
 .pic {
     background-image: url(../IMG_1222\(1\).JPG);
+    background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../IMG_1222(/1/).JPG);
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -230,7 +231,7 @@ body {
 }
 
 .apic {
-    background-image: url(../IMG_1276.JPG);
+    background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../IMG_1276.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
