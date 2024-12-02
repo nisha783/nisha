@@ -1,20 +1,3 @@
-<?php
-if (isset($_POST['submit'])) {
-    $name = $_POST['full_name'];
-    $email = $_POST['email_address'];
-    $subject = $_POST['subject'];
-    $phone = $_POST['phone'];
-    $message = $_POST['message'];
-    $to = "hm6980097@gmail.com";
-    $header = "form:$email";
-    if (mail($to, $subject, $message, $header)) {
-        $message1 = "submit";
-    }
-}
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -147,6 +130,16 @@ if (isset($_POST['submit'])) {
                 <li>{{ $error }}</li>
                 @endforeach
             </ul>
+        </div>
+        @endif
+        @if(session('form_data'))
+        <div class="alert alert-info">
+            <h4>Submitted Data:</h4>
+            <p><strong>Full Name:</strong> {{ session('form_data')['full_name'] }}</p>
+            <p><strong>Email Address:</strong> {{ session('form_data')['email_address'] }}</p>
+            <p><strong>Phone:</strong> {{ session('form_data')['phone'] }}</p>
+            <p><strong>Subject:</strong> {{ session('form_data')['subject'] }}</p>
+            <p><strong>Message:</strong> {{ session('form_data')['message'] }}</p>
         </div>
         @endif
         <form class="mt-4" action="{{route('contact.submit')}}" method="POST">
