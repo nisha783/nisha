@@ -83,10 +83,7 @@
                 <div class="row">
                     <!-- Map Section -->
                     <div class="col-12 col-md-6">
-                        <iframe
-                            src="https://maps.app.goo.gl/A1KisaRrGg3U7bES8"
-                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13617.94627894684!2d73.1517372!3d31.4282691!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392269db590ba613%3A0x4a079cc78b3c51fd!2sQuiff%20Cuts%20Salon!5e0!3m2!1sen!2s!4v1733162776967!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
                     <!-- Contact Details Section -->
