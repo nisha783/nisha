@@ -92,10 +92,8 @@
                     <!-- Contact Details Section -->
                     <div class="col-12 col-md-6">
                         <h3 class="fs-4 mt-4 fw-bold mb-3">Get in Touch</h3>
-                        <p>We Are Always Ready TO Take A Perfect Shot Always Ready TO Take Always Ready TO Take A Perfect
-                            Shot Always Ready TO Take.</p>
+                        <p>We Are Always Ready TO Take A Perfect Shot Always Ready TO Take ..</p>
                         <hr>
-                        <h4 class="fw-bold mt-4">Always Ready TO Take A Perfect Shot..</h4>
                         <div class="d-flex align-items-center mt-3">
                             <i class="bi bi-telephone fs-3 me-3 text-primary"></i>
                             <div>
