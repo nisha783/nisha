@@ -133,18 +133,17 @@ a:hover {
 
 /* Hero Section */
 #hero {
-    background-image: url(../IMG_1156.JPG);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../cover.jpg);
     background-size: cover;
+    background-position: center;
     height: 560px;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     width: 100%;
+
 }
 
-#her {
-    background-image: url(../IMG_1156.JPG);
-    height: 100px;
-}
+
 
 /* For small screens (mobile) */
 @media (max-width: 576px) {
@@ -222,7 +221,7 @@ body {
 }
 
 .pic {
-    background-image: url(../IMG_1222.JPG);
+    background-image: url(../IMG_1222\(1\).JPG);
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -231,7 +230,7 @@ body {
 }
 
 .apic {
-    background-image: url(../IMG_1273.JPG);
+    background-image: url(../IMG_1276.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -284,13 +283,4 @@ body {
         text-align: center;
         /* Center align text */
     }
-}
-
-#hero {
-    background-image: url(../IMG_1156.JPG);
-    background-size: cover;
-    height: 560px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 100%;
 }

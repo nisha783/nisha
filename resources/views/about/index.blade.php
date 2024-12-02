@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Matt</title>
+    <title>Quiffcuts</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{--js--}}
@@ -27,7 +27,7 @@
                 </a>
                 <i class="bi bi-telephone p-2 fs-5" style="color: orange;"></i>
                 <span>Call Us on make on</span>
-                <span style="color: orange;" class="ms-4">+344 445 5674</span>
+                <span style="color: orange;" class="ms-4">+92 3082270007</span>
             </div>
             <div class="right-items">
                 <i class="social-icons c bi bi-facebook p-2"></i>
@@ -41,23 +41,20 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-sm navbar-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand a fs-1" href="#">MATT</a>
+                    <img src="logo-light.png" alt="no logo" class="navbar-brand" height="50px" width="200px" style="margin: start 40px;">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item ms-5">
-                                <a class="nav-link text-white fw-bold" href="/">Home</a>
+                                <a class="nav-link text-white fw-bold fs-5" href="/">Home</a>
                             </li>
                             <li class="nav-item ms-5">
-                                <a class="nav-link text-white fw-bold ms-3" href="#">Services</a>
+                                <a class="nav-link text-white fw-bold ms-3 fs-5" href="{{route('about.index')}}">About Us</a>
                             </li>
                             <li class="nav-item ms-5">
-                                <a class="nav-link text-white fw-bold ms-3" href="{{route('about.index')}}">About Us</a>
-                            </li>
-                            <li class="nav-item ms-5">
-                                <a class="nav-link text-white fw-bold ms-3" href="{{route('contact.index')}}">Contact</a>
+                                <a class="nav-link text-white fw-bold ms-3 fs-5" href="{{route('contact.index')}}">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -67,26 +64,26 @@
     </div>
 
     <div class="pic">
-    <div class="container mb-5">
-        <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-8 col-sm-10 text-center">
-                <h1 class="text-warning" style="margin-top: 80px;">ABOUT US</h1>
-                <p class="fs-5 text-white mt-3">
-                    We Are Always Ready To Take A Perfect Shot, Always Ready To Take.
-                </p>
-                <button type="button" class="btn btn-warning rounded-pill mt-5 text-white" style="margin-bottom: 80px;">
-                    Get Started
-                </button>
+        <div class="container mb-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 col-sm-10 text-center">
+                    <h1 class="text-warning fs-1 a" style="margin-top: 80px;">ABOUT US</h1>
+                    <p class="fs-5 text-white mt-3">
+                        We Are Always Ready To Take A Perfect Shot, Always Ready To Take.
+                    </p>
+                    <button type="button" class="btn btn-warning rounded-pill mt-5 text-white" style="margin-bottom: 80px;">
+                        Get Started
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
     <div style="background-color: #f8f9fa;">
         <div class="container">
             <div class="row" style="margin-top:0px;margin-bottom:50px;">
                 <!-- Text Column -->
-                <p class="text-warning fs-2 a text-center" style="margin-top: 50px;">- ABOUT US</p>
+                <p class="text-warning fs-1` a text-center" style="margin-top: 50px;">- ABOUT US</p>
                 <div class="col-md-6 col-12 order-2">
                     <h3 class="fw-bold fs-1 a">We're here to change your daily <span class="fw-bold text-warning">lifestyle</span></h3>
                     <p class="mt-4 c text-dark">
@@ -95,99 +92,97 @@
                     </p>
                     <p class="mt-4">At [Salon Name], we believe that your hair is a reflection of your personality, and we’re here to help you express it with confidence. Whether you’re looking for a trendy haircut, a vibrant new color, or a transformative treatment,
                         our team of skilled stylists and colorists is passionate about making your vision a reality.</p>
-                    <button class="btn btn-warning text-white rounded-pill">Contact us</button>
+                    <a href="{{route('contact.index')}}" class="btn btn-warning rounded-pill text-white">CONTACT US</a>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-12">
-                            <img src="IMG_1329.JPG" alt="no pic" style="border-radius: 15px 30px;" height="210px" width="200px">
+                            <img src="IMG_1419(1).JPG" alt="no pic" style="border-radius: 15px 30px;" height="210px" width="200px">
                         </div>
                         <div class="col-md-6 col-12 mt-3">
-                            <img src="IMG_1273.JPG" alt="no pic" style="border-radius: 15px 30px;" height="210px" width="200px">
+                            <img src="IMG_1273(1).JPG" alt="no pic" style="border-radius: 15px 30px;" height="210px" width="200px">
                         </div>
                         <div class="col-md-3 col-12 mt-3">
-                            <img src="IMG_1255.JPG" alt="no pic" style="border-radius: 15px 30px;" height="210px" width="200px">
+                            <img src="IMG_1255(1).JPG" alt="no pic" style="border-radius: 15px 30px;" height="210px" width="200px">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-    <div class="row">
-        <!-- Left Column: Skills -->
-        <div class="col-lg-6 col-md-12">
-            <h2>Our Skills</h2>
-            <p>Welcome to [Salon Name], where beauty meets style, and every client is our top priority. 
-               Nestled in the heart of [City/Location].</p>
-            <div class="d-flex justify-content-between align-items-center">
-                <h6 class="head">VideoGraphy</h6>
-                <h6 class="head">7%</h6>
-            </div>
-            <div class="progress rounded-pill mb-4">
-                <div class="progress-bar bg-warning" style="width:7%; height: 30px;"></div>
-            </div>
-            <div class="d-flex justify-content-between align-items-center">
-                <h6 class="head">Video Editing</h6>
-                <h6 class="head">34%</h6>
-            </div>
-            <div class="progress rounded-pill mb-4">
-                <div class="progress-bar bg-warning" style="width:34%; height: 30px;"></div>
-            </div>
-            <div class="d-flex justify-content-between align-items-center">
-                <h6 class="head">Branding</h6>
-                <h6 class="head">78%</h6>
-            </div>
-            <div class="progress rounded-pill mb-4">
-                <div class="progress-bar bg-warning" style="width:78%; height: 30px;"></div>
+            <div class="row">
+                <!-- Left Column: Skills -->
+                <div class="col-lg-6 col-md-12">
+                    <h2>Our Skills</h2>
+                    <p>Welcome to [Salon Name], where beauty meets style, and every client is our top priority.
+                        Nestled in the heart of [City/Location].</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="head">Quiff Styling Expertise</h6>
+                        <h6 class="head">91%</h6>
+                    </div>
+                    <div class="progress rounded-pill mb-4">
+                        <div class="progress-bar bg-warning" style="width:91%; height: 30px;"></div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="head"> Blow Drying Mastery</h6>
+                        <h6 class="head">34%</h6>
+                    </div>
+                    <div class="progress rounded-pill mb-4">
+                        <div class="progress-bar bg-warning" style="width:34%; height: 30px;"></div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="head">Final Touch & Styling</h6>
+                        <h6 class="head">78%</h6>
+                    </div>
+                    <div class="progress rounded-pill mb-4">
+                        <div class="progress-bar bg-warning" style="width:78%; height: 30px;"></div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Statistics -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="row mt-5 ms-lg-5 ms-md-0">
+                        <div class="col-6 mt-4 text-center">
+                            <h2>20<span>+</span></h2>
+                            <span>Years of Experience</span>
+                        </div>
+                        <div class="col-6 mt-4 text-center">
+                            <h2>1000<span>+</span></h2>
+                            <span>Happy Clients</span>
+                        </div>
+                    </div>
+                    <div class="row mt-3 ms-lg-5 ms-md-0">
+                        <div class="col-6 mt-4 text-center">
+                            <h2>2000<span>+</span></h2>
+                            <span>Final Touch & Styling</span>
+                        </div>
+                        <div class="col-6 mt-4 text-center">
+                            <h2>200<span>+</span></h2>
+                            <span>Awards Won</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!-- Right Column: Statistics -->
-        <div class="col-lg-6 col-md-12">
-            <div class="row mt-5 ms-lg-5 ms-md-0">
-                <div class="col-6 mt-4 text-center">
-                    <h2>20<span>+</span></h2>
-                    <span>Years of Experience</span>
-                </div>
-                <div class="col-6 mt-4 text-center">
-                    <h2>1000<span>+</span></h2>
-                    <span>Happy Clients</span>
-                </div>
-            </div>
-            <div class="row mt-3 ms-lg-5 ms-md-0">
-                <div class="col-6 mt-4 text-center">
-                    <h2>2000<span>+</span></h2>
-                    <span>Projects Completed</span>
-                </div>
-                <div class="col-6 mt-4 text-center">
-                    <h2>200<span>+</span></h2>
-                    <span>Awards Won</span>
+        <div class="container mt-5 mb-5 pic">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 col-sm-10 text-center">
+                    <h2 class="text-warning" style="margin-top: 80px;">Hire Us Now</h2>
+                    <p class="fs-5 text-white mt-3">
+                        Always ready to capture the perfect shot and deliver outstanding results. Hire us for professional services now!
+                    </p>
+                    <a href="/" class="btn btn-warning rounded-pill text-white">Started</a>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-
-<div class="container mt-5 mb-5 pic">
-    <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-8 col-sm-10 text-center">
-            <h2 class="text-warning" style="margin-top: 80px;">Hire Us Now</h2>
-            <p class="fs-5 text-white mt-3">
-                We Are Always Ready To Take A Perfect Shot, Always Ready To Take.
-            </p>
-            <button type="button" class="btn btn-warning rounded-pill mt-5 text-white" style="margin-bottom: 80px;">
-                Get Started
-            </button>
-        </div>
-    </div>
-</div>
 
         <!-- Subscription Section -->
         <div style="background-color: rgb(77, 42, 15);">
             <div class="container py-5">
                 <div class="row">
                     <div class="col-md-3 col-12 mb-4">
-                        <h4 class="text-white fw-bold">METT</h4>
+                        <h4 class="text-white fw-bold">Quiffcuts</h4>
                         <p class="text-white mt-3">We believe your hair is your crown, and we are here to make it shine.</p>
                         <div class="form-group mt-4 position-relative">
                             <input type="email" class="form-control" name="email" placeholder="Enter your email">
@@ -200,8 +195,6 @@
                     <div class="col-md-3 col-12 mb-4">
                         <h5 class="text-white fw-bold">Links</h5>
                         <ul class="list-unstyled mt-3">
-                            <li class="text-white mt-2">Services</li>
-                            <li class="text-white mt-2">Book Appointment</li>
                             <li class="text-white mt-2">About Us</li>
                             <li class="text-white mt-2">Privacy Policy</li>
                             <li class="text-white mt-2">Contact</li>
@@ -212,9 +205,9 @@
                         <h5 class="text-white fw-bold">Business Hours</h5>
                         <ul class="list-unstyled mt-3">
                             <li class="text-warning mt-2">Mon - Fri</li>
-                            <li class="text-white">10AM - 8PM</li>
+                            <li class="text-white">10AM - 10PM</li>
                             <li class="text-warning mt-2">Sat</li>
-                            <li class="text-white">11AM - 6PM</li>
+                            <li class="text-white">11AM - 10PM</li>
                             <li class="text-warning mt-2">Sun</li>
                             <li class="text-white">Off-Day</li>
                         </ul>
@@ -224,7 +217,7 @@
                         <h5 class="text-white fw-bold">Contact</h5>
                         <ul class="list-unstyled mt-3">
                             <li class="text-white mt-2">+243 345 33674</li>
-                            <li class="text-white mt-2">YourEmail@gmail.com</li>
+                            <li class="text-white mt-2">info@quiffcuts.com</li>
                         </ul>
                     </div>
                 </div>
@@ -232,7 +225,7 @@
                 <div class="row">
                     <div class="col-12 text-center text-warning mt-4">
                         <hr class="border-light">
-                        <p class="mb-0">© <span>Copyright</span> <strong>RoyDesign</strong>. <span>All Rights Reserved.</span></p>
+                        <p class="mb-0">© <span>Copyright</span> <strong>Quiffcuts</strong>. <span>All Rights Reserved.</span></p>
                     </div>
                 </div>
             </div>
