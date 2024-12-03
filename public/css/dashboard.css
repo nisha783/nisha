@@ -212,10 +212,10 @@ body {
 
 
 .worker {
-    background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../worker.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 400px;
+        background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../worker.JPG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
 }
 .overlay {
     background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../back.JPG);

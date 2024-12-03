@@ -75,7 +75,11 @@
         </div>
     </div>
 
-    <div class="overlay">
+    <div class="" style=" background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../back.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+">
         <div class="container mb-5">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8 col-sm-10 text-center">
@@ -179,7 +183,10 @@
             </div>
         </div>
 
-        <div class="container mt-5 mb-5 worker">
+        <div class="container mt-5 mb-5" style="       background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../worker.JPG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8 col-sm-10 text-center">
                     <h2 class="text-warning" style="margin-top: 80px;">Hire Us Now</h2>
