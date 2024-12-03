@@ -66,7 +66,13 @@
 
 
     <!-- Hero Section -->
-    <div id="hero" class="text-center" style=" padding: 40px 0;">
+    <div id="" class="text-center" style="background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../cover.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%; padding: 40px 0;">
         <div class="container">
             <div class="text-center" style="margin-top:100px;">
                 <h4 class="fw-bold a text-white display-5">Best Shop</h4>

@@ -131,17 +131,7 @@ a:hover {
     justify-content: space-between;
 }
 
-/* Hero Section */
-#hero {
-    background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../cover.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 560px;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
 
-}
 
 
 
