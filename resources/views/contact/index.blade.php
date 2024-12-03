@@ -64,14 +64,20 @@
     </div>
 
 
-    <div class="pic">
+    <div class="" style="
+    background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../worker.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    ">
         <div class="container mb-5">
             <div class="row justify-content-center text-center">
                 <div class="col-md-8 col-lg-6">
                     <h1 class="text-warning" style="margin-top: 100px;">CONTACT US</h1>
                     <p class="fs-4 text-white mt-3">
-                        We Are Always Ready TO Take A Perfect Shot Always Ready TO Take.
+                        Feel free to reach out to us anytime for inquiries, support, or collaboration. We're here to help!
                     </p>
+
                 </div>
             </div>
         </div>
@@ -83,15 +89,21 @@
                 <div class="row">
                     <!-- Map Section -->
                     <div class="col-12 col-md-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13617.94627894684!2d73.1517372!3d31.4282691!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392269db590ba613%3A0x4a079cc78b3c51fd!2sQuiff%20Cuts%20Salon!5e0!3m2!1sen!2s!4v1733162776967!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13617.94627894684!2d73.1517372!3d31.4282691!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392269db590ba613%3A0x4a079cc78b3c51fd!2sQuiff%20Cuts%20Salon!5e0!3m2!1sen!2s!4v1733162776967!5m2!1sen!2s" width="530" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
                     <!-- Contact Details Section -->
                     <div class="col-12 col-md-6">
                         <h3 class="fs-4 mt-4 fw-bold mb-3">Get in Touch</h3>
-                        <p>We Are Always Ready TO Take A Perfect Shot Always Ready TO Take ..</p>
+                        <p class="fs-5 text-muted mt-5">
+                            We are always ready to capture the perfect shot, ensuring excellence every time.
+                        </p>
                         <hr>
-                        <div class="d-flex align-items-center mt-3">
+                        <p class="fs-5 text-secondary mt-5">
+                            Locate us on the map below and visit our office for more details. We're excited to meet you and assist with any queries. Our doors are always open!
+                        </p>
+
+                        <div class="d-flex align-items-center mt-5">
                             <i class="bi bi-telephone fs-3 me-3 text-primary"></i>
                             <div>
                                 <h5 class="mb-0">+923082270007</h5>

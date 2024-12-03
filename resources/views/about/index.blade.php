@@ -63,14 +63,16 @@
         </div>
     </div>
 
-    <div class="pic">
+    <div class="overlay">
         <div class="container mb-5">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8 col-sm-10 text-center">
                     <h1 class="text-warning fs-1 a" style="margin-top: 80px;">ABOUT US</h1>
                     <p class="fs-5 text-white mt-3">
-                        We Are Always Ready To Take A Perfect Shot, Always Ready To Take.
+                        We are always ready to take the perfect shot, capturing moments that matter most.
+                         With creativity, skill, and passion, we turn your memories into timeless treasures.
                     </p>
+
                     <button type="button" class="btn btn-warning rounded-pill mt-5 text-white" style="margin-bottom: 80px;">
                         Get Started
                     </button>
@@ -165,7 +167,7 @@
             </div>
         </div>
 
-        <div class="container mt-5 mb-5 pic">
+        <div class="container mt-5 mb-5 worker">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8 col-sm-10 text-center">
                     <h2 class="text-warning" style="margin-top: 80px;">Hire Us Now</h2>

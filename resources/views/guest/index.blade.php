@@ -206,9 +206,14 @@
                 </h4>
                 <p class="mt-5 c text-dark ms-5">
                     Why choose us? We are dedicated to delivering the best hair care services with precision and passion. Your hair is in expert hands!
+                    Our team of professionals ensures personalized care, using high-quality products and the latest techniques to achieve the perfect look.
+                    Whether you're looking for a trendy haircut, vibrant color, or restorative treatments, we prioritize your satisfaction and confidence.
                 </p>
+
                 <p class="mt-5 c text-dark ms-5">
                     Choose us for our expertise, attention to detail, and personalized approach. We’ll make sure your hair looks and feels amazing every time.
+                    From the moment you step into our salon, you’ll experience unmatched care, professional services, and a warm, welcoming atmosphere.
+                    Let us transform your style and enhance your confidence with every visit!
                 </p>
 
             </div>
@@ -264,18 +269,22 @@
             </div>
         </div>
     </div>
-
-    <div class="pic">
+    <div class="" style="
+    background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../7.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    ">
         <div class="container">
             <div class="row">
                 <div class="col-8 mx-auto">
-                    <div class="text-center" style="margin-top:90px;margin-bottom:90px;">
-                        <h3 class="fw-bold a">Our <span class="text-warning fw-bold a">Lovely</span> Clients </h3>
-                        <i class="mt-3 c ">we believe your hair is your crown, and we are here to make it shine.
+                    <div class="text-center" style="margin-top:150px;margin-bottom:90px;margin-right:44px;">
+                        <h3 class="fw-bold a text-white">Our <span class="text-warning fw-bold a">Lovely</span> Clients </h3>
+                        <i class="mt-5 text-white c ">we believe your hair is your crown, and we are here to make it shine.
                             Visit us today and let us bring out the best in you we believe your hair is your crown,
                             and we are here to make it shine e believe your hair is your ....
                         </i>
-                        <h6 class="text-warning  a">Nelour Seddho</h6>
+                        <h6 class="text-warning  a mt-4">Nelour Seddho</h6>
                     </div>
                 </div>
             </div>
@@ -296,7 +305,7 @@
                                 <img src="IMG_1253.JPG" alt="Artist 1" class="d-block w-100 rounded" height="300">
                             </div>
                             <div class="col-4">
-                                <img src="IMG_1139(1).JPG" alt="Artist 6" class=" rounded"  style="max-height:470px;">
+                                <img src="IMG_1139(1).JPG" alt="Artist 6" class=" rounded" style="max-height:470px;">
                             </div>
                             <div class="col-4">
                                 <img src="IMG_1222(1).JPG" alt="Artist 3" class="d-block w-100 rounded" height="350">
@@ -333,9 +342,10 @@
         </div>
     </div>
 
-
-
-    <div class="apic" style="background-color: rgb(77,42,15); padding: 50px 0;margin-top:40px;">
+    <div class="" style="  background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../worker.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px; padding: 50px 0;margin-top:40px;">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-12 mb-4">

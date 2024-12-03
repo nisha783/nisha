@@ -220,18 +220,16 @@ body {
     height: auto;
 }
 
-.pic {
-    background-image: url(../IMG_1222\(1\).JPG);
-    background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../IMG_1222(/1/).JPG);
-    color: white;
+
+
+.worker {
+    background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../worker.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
-    background-position: 30%;
 }
-
-.apic {
-    background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../IMG_1276.JPG);
+.overlay {
+    background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../back.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
