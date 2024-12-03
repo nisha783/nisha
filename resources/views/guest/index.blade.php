@@ -386,7 +386,7 @@
             <!-- Card 1 -->
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="text-center">
-                    <img src="IMG_1273(1).JPG" alt="Tip Image 1" class="img-fluid rounded" style="height: 350px; width: 100%; object-fit: cover;">
+                    <img src="worker.JPG" alt="Tip Image 1" class="img-fluid rounded" style="height: 350px; width: 100%; object-fit: cover;">
                     <p class="fs-5 a mt-2">Hair is your crown. expert tips for healthy, shiny hair .</p>
                 </div>
             </div>
