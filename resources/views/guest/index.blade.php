@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
     <style>
         @media (max-width: 768px) {
-            .bg-warning {
+            .bg {
                 display: none !important;
             }
         }
@@ -84,13 +84,16 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item ms-5">
-                                <a class="nav-link text-white fw-bold fs-5" href="/">Home</a>
+                                <a class="nav-link text-white fw-bold fs-5"  href="/">Home</a>
                             </li>
                             <li class="nav-item ms-5">
                                 <a class="nav-link text-white fw-bold ms-3 fs-5" href="{{route('about.index')}}">About Us</a>
                             </li>
                             <li class="nav-item ms-5">
                                 <a class="nav-link text-white fw-bold ms-3 fs-5" href="{{route('contact.index')}}">Contact</a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link text-white fw-bold ms-3 fs-5" href="{{route('privacy.index')}}">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
@@ -170,7 +173,7 @@
             <!-- Cards Section with Background Effect -->
             <div class="position-relative">
                 <!-- Orange Background Div -->
-                <div class="bg-warning" style="height: 200px; position: absolute; top: 50%; width: 120%; margin-left: -10%;"></div>
+                <div class="bg bg-warning" style="height: 200px; position: absolute; top: 50%; width: 120%; margin-left: -10%;"></div>
 
                 <!-- Cards Row -->
                 <div class="row position-relative" style="z-index: 1;margin-top:50px;">
@@ -504,7 +507,7 @@
                     <h5 class="text-white fw-bold">Links</h5>
                     <ul class="list-unstyled mt-3">
                         <li class="text-white mt-2"><a href="{{route('about.index')}}" class="text-white">About Us</a></li>
-                        <li class="text-white mt-2"><a href="" class="text-white">Privacy Policy</a></li>
+                        <li class="text-white mt-2"><a href="{{route('privacy.index')}}" class="text-white">Privacy Policy</a></li>
                         <li class="text-white mt-2"><a href="{{route('contact.index')}}" class="text-white">Contact</a></li>
 
                     </ul>

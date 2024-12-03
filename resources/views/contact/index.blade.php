@@ -27,7 +27,7 @@
                 </a>
                 <i class="bi bi-telephone p-2 fs-5" style="color: orange;"></i>
                 <span>Call Us on make on</span>
-                <span style="color: orange;" class="ms-4">+923082270007</span>
+                <span style="color: orange;" class="ms-4">+92 308 2270007</span>
             </div>
             <div class="right-items">
                 <a href="https://www.facebook.com/quiffcuts1/" target="_blank">
@@ -64,6 +64,9 @@
                             </li>
                             <li class="nav-item ms-5">
                                 <a class="nav-link text-white fw-bold ms-3" href="{{route('contact.index')}}">Contact</a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link text-white fw-bold ms-3 fs-5" href="{{route('privacy.index')}}">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
@@ -214,7 +217,7 @@
                         <h5 class="text-white fw-bold">Links</h5>
                         <ul class="list-unstyled mt-3">
                             <li class="text-white mt-2"><a href="{{route('about.index')}}" class="text-white">About Us</a></li>
-                            <li class="text-white mt-2"><a href="" class="text-white">Privacy Policy</a></li>
+                            <li class="text-white mt-2"><a href="{{route('privacy.index')}}" class="text-white">Privacy Policy</a></li>
                             <li class="text-white mt-2"><a href="{{route('contact.index')}}" class="text-white">Contact</a></li>
 
                         </ul>

@@ -40,7 +40,7 @@ class ContactController extends Controller
 
         // Send email
         Mail::raw($messageBody, function ($message) use ($data) {
-            $message->to('shakeel2717@gmail.com')
+            $message->to('Salon@quiffcuts.com')
                     ->subject($data['subject'] ?? 'Contact Form Submission');
         });
         
