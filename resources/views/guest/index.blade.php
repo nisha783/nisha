@@ -22,19 +22,25 @@
                 display: none !important;
             }
         }
-        .responsive-img {
-        width: 500px; /* Set a fixed width for larger screens */
-        height: 525px; /* Set a fixed height for larger screens */
-        border-radius: 2em 0; /* Optional: rounded corners */
-    }
 
-    /* Responsive styling for smaller screens */
-    @media (max-width: 768px) {
         .responsive-img {
-            width: 100%;    /* Make the image width responsive */
-            height: auto;   /* Make the height adjust automatically */
+            width: 500px;
+            /* Set a fixed width for larger screens */
+            height: 525px;
+            /* Set a fixed height for larger screens */
+            border-radius: 2em 0;
+            /* Optional: rounded corners */
         }
-    }
+
+        /* Responsive styling for smaller screens */
+        @media (max-width: 768px) {
+            .responsive-img {
+                width: 100%;
+                /* Make the image width responsive */
+                height: auto;
+                /* Make the height adjust automatically */
+            }
+        }
     </style>
 
 </head>
@@ -47,12 +53,21 @@
                 </a>
                 <i class="bi bi-telephone p-2 fs-5" style="color: orange;"></i>
                 <span>Call Us on make on</span>
-                <span style="color: orange;" class="ms-4">+92 3082270007</span>
+                <span style="color: orange;" class="ms-4">+92 308 2270007</span>
             </div>
             <div class="right-items">
-                <i class="social-icons c bi bi-facebook p-2"></i>
-                <i class="social-icons c bi bi-instagram p-2"></i>
-                <i class="social-icons c bi bi-linkedin p-2"></i>
+                <a href="https://www.facebook.com/quiffcuts1/" target="_blank">
+                    <i class="social-icons c bi bi-facebook p-2"></i>
+                </a>
+                <a href="https://www.tiktok.com/@quiffcuts" target="_blank">
+                    <i class="social-icons bi bi-tiktok p-2"></i>
+                </a>
+                <a href="https://www.instagram.com/quiff_cuts" target="_blank">
+                    <i class="social-icons c bi bi-instagram p-2"></i>
+                </a>
+                <a href="https://wa.me/quiffcuts" target="_blank">
+                    <i class="social-icons c bi bi-whatsapp p-2"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -268,7 +283,7 @@
                     <div class="card shadow" style="background-color: rgb(77,42,15); height: 13vh;">
                         <div class="card-body">
                             <h6 class="text-warning a">Mon-Fri</h6>
-                            <span class="text-white">10AM - 10PM</span>
+                            <span class="text-white">9AM-2AM</span>
                         </div>
                     </div>
                 </div>
@@ -277,7 +292,7 @@
                     <div class="card shadow" style="background-color: rgb(77,42,15); height: 13vh;">
                         <div class="card-body">
                             <h6 class="text-warning a">Sat</h6>
-                            <span class="text-white">10AM - 10PM</span>
+                            <span class="text-white">9AM-2AM</span>
                         </div>
                     </div>
                 </div>
@@ -286,7 +301,7 @@
                     <div class="card shadow" style="background-color: rgb(77,42,15); height: 13vh;">
                         <div class="card-body">
                             <h6 class="text-warning a">Sun</h6>
-                            <span class="text-white">10AM - 10PM</span>
+                            <span class="text-white">9AM-2AM</span>
                         </div>
                     </div>
                 </div>
@@ -488,9 +503,10 @@
                 <div class="col-md-3 col-12 mb-4">
                     <h5 class="text-white fw-bold">Links</h5>
                     <ul class="list-unstyled mt-3">
-                        <li class="text-white mt-2">About Us</li>
-                        <li class="text-white mt-2">Privacy Policy</li>
-                        <li class="text-white mt-2">Contact</li>
+                        <li class="text-white mt-2"><a href="{{route('about.index')}}" class="text-white">About Us</a></li>
+                        <li class="text-white mt-2"><a href="" class="text-white">Privacy Policy</a></li>
+                        <li class="text-white mt-2"><a href="{{route('contact.index')}}" class="text-white">Contact</a></li>
+
                     </ul>
                 </div>
                 <!-- Business Hours Section -->
@@ -498,19 +514,19 @@
                     <h5 class="text-white fw-bold">Business Hours</h5>
                     <ul class="list-unstyled mt-3">
                         <li class="text-warning mt-2">Mon - Fri</li>
-                        <li class="text-white">10AM - 10PM</li>
+                        <li class="text-white">9AM-2AM</li>
                         <li class="text-warning mt-2">Sat</li>
-                        <li class="text-white">11AM - 10PM</li>
+                        <li class="text-white">9AM-2AM</li>
                         <li class="text-warning mt-2">Sun</li>
-                        <li class="text-white">10AM-10PM</li>
+                        <li class="text-white">9AM-2AM</li>
                     </ul>
                 </div>
                 <!-- Contact Section -->
                 <div class="col-md-3 col-12 mb-4">
                     <h5 class="text-white fw-bold">Contact</h5>
                     <ul class="list-unstyled mt-3">
-                        <li class="text-white mt-2">+9203082270007</li>
-                        <li class="text-white mt-2">info@quiffcuts.com</li>
+                        <li class="text-white mt-2">+92 308 2270007</li>
+                        <li class="text-white mt-2">Salon@quiffcuts.com</li>
                     </ul>
                 </div>
             </div>

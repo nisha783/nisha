@@ -27,12 +27,21 @@
                 </a>
                 <i class="bi bi-telephone p-2 fs-5" style="color: orange;"></i>
                 <span>Call Us on make on</span>
-                <span style="color: orange;" class="ms-4">+92 3082270007</span>
+                <span style="color: orange;" class="ms-4">+92 308 2270007</span>
             </div>
             <div class="right-items">
-                <i class="social-icons c bi bi-facebook p-2"></i>
-                <i class="social-icons c bi bi-instagram p-2"></i>
-                <i class="social-icons c bi bi-linkedin p-2"></i>
+                <a href="https://www.facebook.com/quiffcuts1/" target="_blank">
+                    <i class="social-icons c bi bi-facebook p-2"></i>
+                </a>
+                <a href="https://www.tiktok.com/@quiffcuts" target="_blank">
+                    <i class="social-icons bi bi-tiktok p-2"></i>
+                </a>
+                <a href="https://www.instagram.com/quiff_cuts" target="_blank">
+                    <i class="social-icons c bi bi-instagram p-2"></i>
+                </a>
+                <a href="https://wa.me/quiffcuts" target="_blank">
+                    <i class="social-icons c bi bi-whatsapp p-2"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -70,7 +79,7 @@
                     <h1 class="text-warning fs-1 a" style="margin-top: 80px;">ABOUT US</h1>
                     <p class="fs-5 text-white mt-3">
                         We are always ready to take the perfect shot, capturing moments that matter most.
-                         With creativity, skill, and passion, we turn your memories into timeless treasures.
+                        With creativity, skill, and passion, we turn your memories into timeless treasures.
                     </p>
 
                     <button type="button" class="btn btn-warning rounded-pill mt-5 text-white" style="margin-bottom: 80px;">
@@ -197,9 +206,10 @@
                     <div class="col-md-3 col-12 mb-4">
                         <h5 class="text-white fw-bold">Links</h5>
                         <ul class="list-unstyled mt-3">
-                            <li class="text-white mt-2">About Us</li>
-                            <li class="text-white mt-2">Privacy Policy</li>
-                            <li class="text-white mt-2">Contact</li>
+                            <li class="text-white mt-2"><a href="{{route('about.index')}}" class="text-white">About Us</a></li>
+                            <li class="text-white mt-2"><a href="" class="text-white">Privacy Policy</a></li>
+                            <li class="text-white mt-2"><a href="{{route('contact.index')}}" class="text-white">Contact</a></li>
+
                         </ul>
                     </div>
                     <!-- Business Hours Section -->
@@ -207,19 +217,20 @@
                         <h5 class="text-white fw-bold">Business Hours</h5>
                         <ul class="list-unstyled mt-3">
                             <li class="text-warning mt-2">Mon - Fri</li>
-                            <li class="text-white">10AM - 10PM</li>
+                            <li class="text-white">9AM- 2AM</li>
                             <li class="text-warning mt-2">Sat</li>
-                            <li class="text-white">11AM - 10PM</li>
+                            <li class="text-white">9AM- 2AM</li>
                             <li class="text-warning mt-2">Sun</li>
-                            <li class="text-white">Off-Day</li>
+                            <li class="text-white">9AM- APM</li>
+
                         </ul>
                     </div>
                     <!-- Contact Section -->
                     <div class="col-md-3 col-12 mb-4">
                         <h5 class="text-white fw-bold">Contact</h5>
                         <ul class="list-unstyled mt-3">
-                            <li class="text-white mt-2">+243 345 33674</li>
-                            <li class="text-white mt-2">info@quiffcuts.com</li>
+                            <li class="text-white mt-2">+92 308 2270007</li>
+                            <li class="text-white mt-2">salon@quiffcuts.com</li>
                         </ul>
                     </div>
                 </div>
