@@ -237,7 +237,7 @@
                     <p class="mt-4 text-white c">We believe your hair is your crown, and we are here to make it shine. Visit us today and let us bring out the best in you. We believe your hair is your crown, and we are here to make it shine.</p>
                 </div>
                 <div class="col-md-6 col-12 text-center">
-                    <img src="IMG_1223(1).JPG" alt="" class="mt-5 img-fluid" style="border-radius: 80px 20px;max-height:450px;">
+                    <img src="back.JPG" alt="" class="mt-5 img-fluid" style="border-radius: 80px 20px;max-height:450px;">
                 </div>
             </div>
 
