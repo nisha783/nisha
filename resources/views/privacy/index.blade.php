@@ -86,7 +86,7 @@
             </nav>
         </div>
     </div>
-    <h2 class="fw-bold mt-5 text-center">Quiff Cuts Salon For Men</h2>
+    <h2 class="fw-bold mt-5 text-center">Quiff Cuts Salon</h2>
     <div class="container mt-5 mb-5 custom-container">
         <div class="card border-0 shadow">
             <div class="card-body">
