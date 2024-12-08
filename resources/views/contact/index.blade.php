@@ -27,7 +27,7 @@
                 </a>
                 <i class="bi bi-telephone p-2 fs-5" style="color: orange;"></i>
                 <span>Call Us on make on</span>
-                <span style="color: orange;" class="ms-4"><a href="https://wa.me/quiffcuts" style="color: orange;">+92 308 2270007</a></span>
+                <span style="color: orange;" class="ms-4"><a href="https://wa.me/quiffcuts" style="color: orange;">Whatspp Contact</a></span>
 
             </div>
             <div class="right-items">
@@ -119,7 +119,7 @@
                         <div class="d-flex align-items-center mt-5">
                             <i class="bi bi-telephone fs-3 me-3 text-primary"></i>
                             <div>
-                                <h5 class="mb-0"> <a href="https://wa.me/quiffcuts" class="text-dark">https://wa.me/quiffcuts</a></h5>
+                                <h5 class="mb-0"> <a href="https://wa.me/quiffcuts" class="text-dark">+92 308 2270007</a></h5>
                                 <span style="color: orangered;">Salon@quiffcuts.com</span>
                             </div>
                         </div>
