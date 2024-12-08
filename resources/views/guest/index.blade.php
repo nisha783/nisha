@@ -324,7 +324,7 @@
             </div>
             <div class="col-6">
                 <h4 class="a mt-4">Hair Treatments</h4>
-                <p class="mt-3  fs-5">At Quiff cuts Salon, we believe in offering premium services at competitive prices.
+                <p class="mt-3  fs-5">At Quiff  Cuts  Salon, we believe in offering premium services at competitive prices.
                     Whether you're looking for a trendy haircut, a relaxing spa session, or expert
                     grooming, our pricing ensures you get the best value without compromising on quality.
                     Explore our range of services designed to cater to all your beauty and styling needs.
@@ -332,7 +332,7 @@
                 <h4 class="a mt-5 text-warning">Haircuts & Styling</h4>
                 <p class="mt-3 fs-5">
                     Elevate your look with precision haircuts and
-                    expert styling at Quiffcuts Salon. Whether you prefer classic cuts or trendy styles, our skilled stylists tailor each service to suit your personality and enhance
+                    expert styling at Quiff  Cuts Salon. Whether you prefer classic cuts or trendy styles, our skilled stylists tailor each service to suit your personality and enhance
                     your features. Experience a fresh, confident look every time!</p>
             </div>
         </div>
@@ -552,7 +552,7 @@
                 <div class="col-md-3 col-12 mb-4">
                     <h5 class="text-white fw-bold">Contact</h5>
                     <ul class="list-unstyled mt-3">
-                        <li> <a href="https://wa.me/quiffcuts" class="mt-2">https://wa.me/quiffcuts</a></li>
+                        <li> <a href="https://wa.me/quiffcuts" class="mt-2">+92 308 2270007</a></li>
                         <li class="text-white mt-2">Salon@quiffcuts.com</li>
                     </ul>
                 </div>

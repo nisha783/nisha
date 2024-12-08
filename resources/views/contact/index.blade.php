@@ -240,7 +240,7 @@
                     <div class="col-md-3 col-12 mb-4">
                         <h5 class="text-white fw-bold">Contact</h5>
                         <ul class="list-unstyled mt-3">
-                            <li> <a href="https://wa.me/quiffcuts">https://wa.me/quiffcuts</a></li>
+                        <li> <a href="https://wa.me/quiffcuts" class="mt-2">+92 308 2270007</a></li>
                             <li class="text-white mt-2">Salon@quiffcuts.com</li>
                         </ul>
                     </div>
