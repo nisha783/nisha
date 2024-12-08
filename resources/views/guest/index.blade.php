@@ -324,13 +324,13 @@
             </div>
             <div class="col-6">
                 <h4 class="a mt-4">Hair Treatments</h4>
-                <p class="mt-5">At Quiffcuts Salon, we believe in offering premium services at competitive prices.
+                <p class="mt-3  fs-5">At Quiffcuts Salon, we believe in offering premium services at competitive prices.
                     Whether you're looking for a trendy haircut, a relaxing spa session, or expert
                     grooming, our pricing ensures you get the best value without compromising on quality.
                     Explore our range of services designed to cater to all your beauty and styling needs.
                 </p>
                 <h4 class="a mt-5 text-warning">Haircuts & Styling</h4>
-                <p class="mt-5 c">
+                <p class="mt-3 fs-5">
                     Elevate your look with precision haircuts and
                     expert styling at Quiffcuts Salon. Whether you prefer classic cuts or trendy styles, our skilled stylists tailor each service to suit your personality and enhance
                     your features. Experience a fresh, confident look every time!</p>
