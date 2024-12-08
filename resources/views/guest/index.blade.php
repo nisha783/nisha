@@ -53,7 +53,7 @@
                 </a>
                 <i class="bi bi-telephone p-2 fs-5" style="color: orange;"></i>
                 <span>Call Us on make on</span>
-                <span style="color: orange;" class="ms-4"><a href="https://wa.me/quiffcuts" style="color: orange;" >Whatsapp Contact</a></span>
+                <span style="color: orange;" class="ms-4"><a href="https://wa.me/quiffcuts" style="color: orange;">Whatsapp Contact</a></span>
             </div>
             <div class="right-items">
                 <a href="https://www.facebook.com/quiffcuts1/" target="_blank">
@@ -84,7 +84,7 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item ms-5">
-                                <a class="nav-link text-white fw-bold fs-5"  href="/">Home</a>
+                                <a class="nav-link text-white fw-bold fs-5" href="/">Home</a>
                             </li>
                             <li class="nav-item ms-5">
                                 <a class="nav-link text-white fw-bold ms-3 fs-5" href="{{route('about.index')}}">About Us</a>
@@ -310,6 +310,30 @@
                 </div>
                 <!-- Appointment Card -->
 
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <p class="text-warning  text-center a fs-1 mt-4">-- PRICES</p>
+        <div class="row mt-5 mb-5">
+            <div class="col-6">
+                <img src="service.jpg" alt="no pic" style="border-radius:25px;" height="500px" width="500px">
+            </div>
+            <div class="col-6">
+                <h4 class="a mt-4">Hair Treatments</h4>
+                <p class="mt-5">At Quiffcuts Salon, we believe in offering premium services at competitive prices.
+                    Whether you're looking for a trendy haircut, a relaxing spa session, or expert
+                    grooming, our pricing ensures you get the best value without compromising on quality.
+                    Explore our range of services designed to cater to all your beauty and styling needs.
+                </p>
+                <h4 class="a mt-5 text-warning">Haircuts & Styling</h4>
+                <p class="mt-5 c">
+                    Elevate your look with precision haircuts and
+                    expert styling at Quiffcuts Salon. Whether you prefer classic cuts or trendy styles, our skilled stylists tailor each service to suit your personality and enhance
+                    your features. Experience a fresh, confident look every time!</p>
             </div>
         </div>
     </div>
