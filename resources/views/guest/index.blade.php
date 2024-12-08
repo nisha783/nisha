@@ -320,11 +320,11 @@
         <p class="text-warning  text-center a fs-1 mt-4">-- PRICES</p>
         <div class="row mt-5 mb-5">
             <div class="col-6">
-                <img src="service.jpg" alt="no pic" style="border-radius:25px;" height="500px" width="500px">
+                <img src="service.jpg" alt="no pic" style="border-radius:25px;" height="550px" width="500px">
             </div>
             <div class="col-6">
                 <h4 class="a mt-4">Hair Treatments</h4>
-                <p class="mt-3  fs-5">At Quiffcuts Salon, we believe in offering premium services at competitive prices.
+                <p class="mt-3  fs-5">At Quiff cuts Salon, we believe in offering premium services at competitive prices.
                     Whether you're looking for a trendy haircut, a relaxing spa session, or expert
                     grooming, our pricing ensures you get the best value without compromising on quality.
                     Explore our range of services designed to cater to all your beauty and styling needs.
