@@ -53,7 +53,7 @@
                 </a>
                 <i class="bi bi-telephone p-2 fs-5" style="color: orange;"></i>
                 <span>Call Us on make on</span>
-                <span style="color: orange;" class="ms-4">+92 308 2270007</span>
+                <span style="color: orange;" class="ms-4"><a href="https://wa.me/quiffcuts" style="color: orange;" >https://wa.me/quiffcuts</a></span>
             </div>
             <div class="right-items">
                 <a href="https://www.facebook.com/quiffcuts1/" target="_blank">
@@ -113,8 +113,8 @@
     width: 100%; padding: 40px 0;">
         <div class="container">
             <div class="text-center" style="margin-top:100px;">
-                <h4 class="fw-bold a text-white display-5">Best Shop</h4>
-                <a href="#" class="text-warning a fw-bold fs-1 d-block mt-2">in Town</a>
+                <h4 class="fw-bold a text-white display-5">Best Shop In Town</h4>
+                <a href="https://wa.me/quiffcuts" class="text-warning a fw-bold fs-1 d-block mt-2">Bock Now</a>
                 <p class="custom-font text-white mx-auto" style="max-width: 550px;">
                     We believe your hair is your crown, and we are here to make it shine.
                     Visit us today and let us bring out the best in you.
@@ -528,7 +528,7 @@
                 <div class="col-md-3 col-12 mb-4">
                     <h5 class="text-white fw-bold">Contact</h5>
                     <ul class="list-unstyled mt-3">
-                        <li class="text-white mt-2">+92 308 2270007</li>
+                        <li> <a href="https://wa.me/quiffcuts" class="mt-2">https://wa.me/quiffcuts</a></li>
                         <li class="text-white mt-2">Salon@quiffcuts.com</li>
                     </ul>
                 </div>

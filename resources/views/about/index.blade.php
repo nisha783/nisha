@@ -27,7 +27,7 @@
                 </a>
                 <i class="bi bi-telephone p-2 fs-5" style="color: orange;"></i>
                 <span>Call Us on make on</span>
-                <span style="color: orange;" class="ms-4">+92 308 2270007</span>
+                <span style="color: orange;" class="ms-4"><a href="https://wa.me/quiffcuts" style="color: orange;" >https://wa.me/quiffcuts</a></span>
             </div>
             <div class="right-items">
                 <a href="https://www.facebook.com/quiffcuts1/" target="_blank">
