@@ -320,7 +320,7 @@
         <p class="text-warning  text-center a fs-1 mt-4">-- PRICES</p>
         <div class="row mt-5 mb-5">
             <div class="col-6">
-                <img src="service.jpg" alt="no pic" style="border-radius:25px;" height="550px" width="500px">
+                <img src="service.jpg" alt="no pic" style="border-radius:25px;" height="570px" width="520px">
             </div>
             <div class="col-6">
                 <h4 class="a mt-4">Hair Treatments</h4>
