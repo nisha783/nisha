@@ -204,7 +204,7 @@
             <div class="container py-5">
                 <div class="row">
                     <div class="col-md-3 col-12 mb-4">
-                        <h4 class="text-white fw-bold">Quiffcuts</h4>
+                        <h4 class="text-white fw-bold">Quiff Cuts</h4>
                         <p class="text-white mt-3">We believe your hair is your crown, and we are here to make it shine.</p>
                         <div class="form-group mt-4 position-relative">
                             <input type="email" class="form-control" name="email" placeholder="Enter your email">

@@ -101,14 +101,14 @@
         <div class="container">
             <div class="row" style="margin-top:0px;margin-bottom:50px;">
                 <!-- Text Column -->
-                <p class="text-warning fs-1` a text-center" style="margin-top: 50px;">- ABOUT US</p>
+                <p class="text-warning fs-1 a text-center  mb-5" style="margin-top: 50px;">- ABOUT US</p>
                 <div class="col-md-6 col-12 order-2">
                     <h3 class="fw-bold fs-1 a">We're here to change your daily <span class="fw-bold text-warning">lifestyle</span></h3>
                     <p class="mt-4 c text-dark">
-                        Welcome to [Salon Name], where beauty meets style, and every client is our top priority. Nestled in the heart of [City/Location], our salon is dedicated to providing
+                        Welcome to [Quiff Cuts], where beauty meets style, and every client is our top priority. Nestled in the heart of [City/Location], our salon is dedicated to providing
                         exceptional hair care services in a warm and welcoming environment.
                     </p>
-                    <p class="mt-4">At [Salon Name], we believe that your hair is a reflection of your personality, and we’re here to help you express it with confidence. Whether you’re looking for a trendy haircut, a vibrant new color, or a transformative treatment,
+                    <p class="mt-4">At [Quiff Cuts], we believe that your hair is a reflection of your personality, and we’re here to help you express it with confidence. Whether you’re looking for a trendy haircut, a vibrant new color, or a transformative treatment,
                         our team of skilled stylists and colorists is passionate about making your vision a reality.</p>
                     <a href="{{route('contact.index')}}" class="btn btn-warning rounded-pill text-white">CONTACT US</a>
                 </div>
@@ -132,7 +132,7 @@
                 <!-- Left Column: Skills -->
                 <div class="col-lg-6 col-md-12">
                     <h2>Our Skills</h2>
-                    <p>Welcome to [Salon Name], where beauty meets style, and every client is our top priority.
+                    <p>Welcome to [Quiff Cuts], where beauty meets style, and every client is our top priority.
                         Nestled in the heart of [City/Location].</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <h6 class="head">Quiff Styling Expertise</h6>

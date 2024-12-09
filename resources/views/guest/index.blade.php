@@ -135,14 +135,14 @@
             <div class="col-md-6 col-12 order-2">
                 <h3 class="fw-bold fs-1 a ms-4 mt-5">We're here to change your daily <span class="fw-bold text-warning">lifestyle</span></h3>
                 <p class="mt-3 c fs-5 text-dark ms-4 mt-5">
-                    Welcome to QuffCuts Hair Salon, where your hair is our passion. At QuffCuts, we believe your hair is your crown, and we're here to help you wear it proudly.
+                    Welcome to Quff Cuts Hair Salon, where your hair is our passion. At QuffCuts, we believe your hair is your crown, and we're here to help you wear it proudly.
                     Our expert stylists are dedicated to bringing out the best in you, blending artistry with professionalism to create looks that shine with confidence.
                     From classic cuts to modern styles, we tailor each experience to suit your unique personality.
                 </p>
                 <p class="mt-4 c text-dark fs-5  ms-4 mt-5">
-                    At QuffCuts Hair Salon, we believe your hair is your crown, and it deserves to shine.
+                    At Quff Cuts Hair Salon, we believe your hair is your crown, and it deserves to shine.
                     Our goal is to enhance your natural beauty and bring out the best in you.
-                    Because at QuffCuts, your hair is our pride.
+                    Because at Quff Cuts, your hair is our pride.
                 </p>
 
             </div>
@@ -156,18 +156,23 @@
                 <div class="col-md-6 col-12">
                     <p class="text-warning fs-2 a" style="margin-top: 70px;">- SERVICES</p>
                     <h4 class="fw-bold fs-1 mt-4 a">What we provide to our <span class="text-warning fw-bold">customer</span></h4>
-                    <p class="mt-5 c text-dark mt-5 fs-5">
-                        At QuffCuts Hair Salon, exceptional customer service is at the heart of everything we do.
+                    <p class="mt-3 c text-dark fs-5">
+                        At Quff Cuts Hair Salon, exceptional customer service is at the heart of everything we do.
                         We believe your hair is your crown, and our dedicated team is here to make it shine with care and expertise.
                         From the moment you step through our doors, we ensure a warm and welcoming experience, tailored to meet your unique needs.
                     </p>
+                    <p class="mt-3 text-dark fs-5 c">
+                        At Cuiff Cuts Salon, we believe every customer is a masterpiece, and beauty is the art we perfect.
+                        From stunning hair transformations to flawless finishing touches, our goal is to enhance your natural beauty.
+                    </p>
+
                 </div>
                 <!-- Image Column -->
                 <div class="col-md-6 col-12" style="margin-top: 50px;">
                     <img src="IMG_1336(1).JPG"
                         alt="no pic"
                         class="ms-3 mt-4 img-fluid"
-                        style="border-radius:15px;max-height:450px;width:450px;">
+                        style="border-radius:15px;max-height:550px;width:450px;">
                 </div>
             </div>
             <!-- Cards Section with Background Effect -->
@@ -272,7 +277,11 @@
                     <p class="text-warning  a fs-1">-- Our MISSION</p>
                     <h4 class="text-white fs-3 fw-bold a">We'll do our best to fulfill your <span class="text-warning">expectation</span></h4>
                     <p class="mt-4 text-white c">We believe your hair is your crown, and we are here to make it shine. Visit us today and let us bring out the best in you. We believe your hair is your crown, and we are here to make it shine. Visit us today and let us bring out the best in you.</p>
-                    <p class="mt-4 text-white c">We believe your hair is your crown, and we are here to make it shine. Visit us today and let us bring out the best in you. We believe your hair is your crown, and we are here to make it shine.</p>
+                    <p class="mt-4 text-white c">
+                        At Cuiff Cuts Salon, we believe your hair and we are dedicated to making it shine.
+                        Our mission is to bring out the best in you with expert care and personalized services.
+                        Step into our salon today and experience the transformation you deserve.
+                    </p>
                 </div>
                 <div class="col-md-6 col-12 text-center">
                     <img src="back.JPG" alt="" class="mt-5 img-fluid" style="border-radius: 80px 20px;max-height:450px;">
@@ -317,26 +326,32 @@
 
 
     <div class="container">
-        <p class="text-warning  text-center a fs-1 mt-4">-- PRICES</p>
-        <div class="row mt-5 mb-5">
-            <div class="col-6">
-                <img src="service.jpg" alt="no pic" style="border-radius:25px;" height="570px" width="520px">
-            </div>
-            <div class="col-6">
-                <h4 class="a mt-4">Hair Treatments</h4>
-                <p class="mt-3  fs-5">At Quiff  Cuts  Salon, we believe in offering premium services at competitive prices.
-                    Whether you're looking for a trendy haircut, a relaxing spa session, or expert
-                    grooming, our pricing ensures you get the best value without compromising on quality.
-                    Explore our range of services designed to cater to all your beauty and styling needs.
-                </p>
-                <h4 class="a mt-5 text-warning">Haircuts & Styling</h4>
-                <p class="mt-3 fs-5">
-                    Elevate your look with precision haircuts and
-                    expert styling at Quiff  Cuts Salon. Whether you prefer classic cuts or trendy styles, our skilled stylists tailor each service to suit your personality and enhance
-                    your features. Experience a fresh, confident look every time!</p>
-            </div>
+    <p class="text-warning text-center a fs-1 mt-4">-- PRICES</p>
+    <div class="row mt-5 mb-5">
+        <!-- Image Section -->
+        <div class="col-lg-6 col-md-12 mb-4">
+    <img src="service.jpg" alt="no pic" class="img-fluid rounded" style="border-radius: 25px; max-height: 630px; width:520px; ">
+</div>
+
+        <!-- Text Section -->
+        <div class="col-lg-6 col-md-12">
+            <h4 class="a mt-4">Hair Treatments</h4>
+            <p class="mt-3 fs-5">
+                At Quiff Cuts Salon, we believe in offering premium services at competitive prices.
+                Whether you're looking for a trendy haircut, a relaxing spa session, or expert grooming,
+                our pricing ensures you get the best value without compromising on quality.
+                Explore our range of services designed to cater to all your beauty and styling needs.
+            </p>
+            <h4 class="a mt-5 text-warning">Haircuts & Styling</h4>
+            <p class="mt-3 fs-5">
+                Elevate your look with precision haircuts and expert styling at Quiff Cuts Salon.
+                Whether you prefer classic cuts or trendy styles, our skilled stylists tailor each service
+                to suit your personality and enhance your features. Experience a fresh, confident look every time!
+            </p>
         </div>
     </div>
+</div>
+
     <div class="" style="
     background: linear-gradient(45deg, rgba(20, 20, 20, 0.623), rgba(20, 20, 20, 0.623)), url(../7.JPG);
     background-size: cover;
@@ -493,7 +508,7 @@
                             C.E.O<span class="text-warning ms-2"> Leading the Way</span>
                         </h3>
                         <p class="mt-3 c ms-5">
-                            At Quiffcuts, we are driven by passion and innovation. Our CEO, a true visionary,
+                            At Quiff Cuts, we are driven by passion and innovation. Our CEO, a true visionary,
                             leads with a commitment to excellence, ensuring every client gets the highest quality experience.
                             With a deep understanding of the beauty industry, they continue to elevate the brand, bringing
                             fresh ideas and unmatched expertise.
