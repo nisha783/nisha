@@ -134,12 +134,12 @@
             <!-- Text Column -->
             <div class="col-md-6 col-12 order-2">
                 <h3 class="fw-bold fs-1 a ms-4 mt-5">We're here to change your daily <span class="fw-bold text-warning">lifestyle</span></h3>
-                <p class="mt-3 c fs-5 text-dark ms-4 mt-5">
-                    Welcome to Quff Cuts Hair Salon, where your hair is our passion. At QuffCuts, we believe your hair is your crown, and we're here to help you wear it proudly.
+                <p class="mt-3 c fs-5 text-dark ms-3 mt-5">
+                    Welcome to   Quff   Cuts Hair Salon, where your hair is our passion. At Quff Cuts, we believe your hair is your crown, and we're here to help you wear it proudly.
                     Our expert stylists are dedicated to bringing out the best in you, blending artistry with professionalism to create looks that shine with confidence.
                     From classic cuts to modern styles, we tailor each experience to suit your unique personality.
                 </p>
-                <p class="mt-4 c text-dark fs-5  ms-4 mt-5">
+                <p class="mt-4 c text-dark fs-5  ms-3 mt-5">
                     At Quff Cuts Hair Salon, we believe your hair is your crown, and it deserves to shine.
                     Our goal is to enhance your natural beauty and bring out the best in you.
                     Because at Quff Cuts, your hair is our pride.
@@ -203,7 +203,7 @@
                             <div class="card-body">
                                 <div class="text-center">
                                     <h3 class="fw-bold mt-5">Clean Shave</h3>
-                                    <p class="c text-dark mt-4">"Shine at Quiffcuts. Visit us today for the best in haircuts and a clean shave.
+                                    <p class="c text-dark mt-4">"Shine at Quiff Cuts. Visit us today for the best in haircuts and a clean shave.
                                         Your hair is your crown, and we’re here to make it shine!"</p>
                                 </div>
                             </div>
